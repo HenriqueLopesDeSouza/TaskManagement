@@ -21,6 +21,14 @@
     * User Management API: Responsible for handling user-related functionalities.
     * Task Management API: Responsible for managing tasks.
 
+### 3 - Methods 
+       - Register 
+       - Login 
+       - List Tasks
+       - Create Tasks
+       - Edit Tasks
+       - Delete Tasks
+       - Update subtasks
 ## Registration
 ![registro_mostrando_validacao](https://github.com/HenriqueLopesDeSouza/TaskManagement/assets/43977679/e8cc126d-c287-4b5f-ba2a-cb8da62a6ca3)
 
