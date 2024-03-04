@@ -1,0 +1,12 @@
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Core\bin\Debug\net7.0\TaskManagement.Core.deps.json
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Core\bin\Debug\net7.0\TaskManagement.Core.dll
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Core\bin\Debug\net7.0\TaskManagement.Core.pdb
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Core\obj\Debug\net7.0\TaskManagement.Core.csproj.AssemblyReference.cache
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Core\obj\Debug\net7.0\TaskManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Core\obj\Debug\net7.0\TaskManagement.Core.AssemblyInfoInputs.cache
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Core\obj\Debug\net7.0\TaskManagement.Core.AssemblyInfo.cs
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Core\obj\Debug\net7.0\TaskManagement.Core.csproj.CoreCompileInputs.cache
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Core\obj\Debug\net7.0\TaskManagement.Core.dll
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Core\obj\Debug\net7.0\refint\TaskManagement.Core.dll
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Core\obj\Debug\net7.0\TaskManagement.Core.pdb
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Core\obj\Debug\net7.0\ref\TaskManagement.Core.dll

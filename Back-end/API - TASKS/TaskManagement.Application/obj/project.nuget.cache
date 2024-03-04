@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eDETxAztfXd56kJWxpnQD4wpiaSHDgKee3QEnCL03/ZA52B9cnI9FvaP4aGeLrbRTTyFo4cNszEkSw14UAoj9g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\henrique lopes\\Documents\\Projeto\\Sistema de Gestão de Tarefas\\Back-end\\TaskManagement.Application\\TaskManagement.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\henrique lopes\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

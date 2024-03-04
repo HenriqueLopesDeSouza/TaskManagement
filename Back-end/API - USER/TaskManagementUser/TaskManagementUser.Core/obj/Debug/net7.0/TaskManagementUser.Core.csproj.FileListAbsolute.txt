@@ -1,0 +1,12 @@
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagementUser\TaskManagementUser.Core\bin\Debug\net7.0\TaskManagementUser.Core.deps.json
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagementUser\TaskManagementUser.Core\bin\Debug\net7.0\TaskManagementUser.Core.dll
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagementUser\TaskManagementUser.Core\bin\Debug\net7.0\TaskManagementUser.Core.pdb
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagementUser\TaskManagementUser.Core\obj\Debug\net7.0\TaskManagementUser.Core.csproj.AssemblyReference.cache
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagementUser\TaskManagementUser.Core\obj\Debug\net7.0\TaskManagementUser.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagementUser\TaskManagementUser.Core\obj\Debug\net7.0\TaskManagementUser.Core.AssemblyInfoInputs.cache
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagementUser\TaskManagementUser.Core\obj\Debug\net7.0\TaskManagementUser.Core.AssemblyInfo.cs
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagementUser\TaskManagementUser.Core\obj\Debug\net7.0\TaskManagementUser.Core.csproj.CoreCompileInputs.cache
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagementUser\TaskManagementUser.Core\obj\Debug\net7.0\TaskManagementUser.Core.dll
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagementUser\TaskManagementUser.Core\obj\Debug\net7.0\refint\TaskManagementUser.Core.dll
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagementUser\TaskManagementUser.Core\obj\Debug\net7.0\TaskManagementUser.Core.pdb
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagementUser\TaskManagementUser.Core\obj\Debug\net7.0\ref\TaskManagementUser.Core.dll

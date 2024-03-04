@@ -1,0 +1,15 @@
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Application\bin\Debug\net7.0\TaskManagement.Application.deps.json
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Application\bin\Debug\net7.0\TaskManagement.Application.dll
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Application\bin\Debug\net7.0\TaskManagement.Application.pdb
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.csproj.AssemblyReference.cache
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.AssemblyInfoInputs.cache
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.AssemblyInfo.cs
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.csproj.CoreCompileInputs.cache
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.dll
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Application\obj\Debug\net7.0\refint\TaskManagement.Application.dll
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.pdb
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Application\obj\Debug\net7.0\ref\TaskManagement.Application.dll
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Application\bin\Debug\net7.0\TaskManagement.Core.dll
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Application\bin\Debug\net7.0\TaskManagement.Core.pdb
+C:\Users\henrique lopes\Documents\Projeto\Sistema de Gestão de Tarefas\Back-end\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.csproj.CopyComplete
