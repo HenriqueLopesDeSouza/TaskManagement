@@ -1,0 +1,54 @@
+.text-yellow {
+    color: #ffc107;
+    background-color: #333;
+}
+.text-pending {
+    color: #ffc107;    
+    font-weight: bold;
+    border: solid 1px ;
+  }
+  
+  .text-in-progress {
+    color: #17a2b8; /* Replace with the desired text color for the "In Progress" status */
+    border: solid 1px ; /* Replace with the desired background color */
+    font-weight: bold;
+  }
+  
+  .text-success-status{
+    color: green; /* Replace with the desired text color for the "In Progress" status */
+    border: solid 1px ; /* Replace with the desired background color */
+    font-weight: bold;
+  }
+  
+  .text-title-heading{
+    font-style: italic;
+    font-weight: bolder;
+    font-size:x-large;
+  }
+
+  .overdue {
+    color: red;
+  }
+  
+  .due-today {
+    color: orange;
+  }
+  
+  .due-soon {
+    color: rgb(126, 126, 19);
+  }
+  
+  .upcoming {
+    color: green;
+  }
+  
+  .label-boxed{
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    color: #1cadc0;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 2px;
+  }

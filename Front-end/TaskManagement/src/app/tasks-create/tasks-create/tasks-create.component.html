@@ -1,0 +1,100 @@
+<div class="container">
+  <br>
+  <br>
+  <h1 class="text-default text-center" >
+    <b> Create Task</b>
+  </h1>
+
+  <form [formGroup]="taskForm" (ngSubmit)="createTask()" class="needs-validation">
+    <div class="row">
+      <div class="col-12">
+        <div class="mb-3">
+          <label for="title" class="form-label fw-bold">Title</label>
+          <input type="text" id="title" class="form-control" formControlName="title" required>
+          <div class="text-danger" *ngIf="isFieldInvalid('title')">Title is required.</div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <div class="mb-3">
+          <label for="dueDate" class="form-label  fw-bold">Due Date</label>
+          <input type="date" id="dueDate" class="form-control" formControlName="dueDate" required>
+          <div class="text-danger" *ngIf="isFieldInvalid('dueDate')">Due Date is required.</div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="mb-3">
+          <label for="status" class="form-label  fw-bold">Status</label>
+          <select id="status" class="form-select" formControlName="status" required>
+            <option value="">Select Status</option>
+            <option value="Pending">Pending</option>
+            <option value="In Progress">In Progress</option>
+            <option value="Completed">Completed</option>
+          </select>
+          <div class="text-danger" *ngIf="isFieldInvalid('status')">Status is required.</div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="mb-3">
+          <label for="priority" class="form-label  fw-bold">Priority</label>
+          <select id="priority" class="form-select" formControlName="priority" required>
+            <option value="">Select Priority</option>
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+          </select>
+          <div class="text-danger" *ngIf="isFieldInvalid('priority')">Priority is required.</div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="mb-3">
+          <label for="description" class="form-label  fw-bold">Description</label>
+          <textarea id="description" class="form-control" formControlName="description" rows="10"></textarea>     
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-12">
+        <label for="subtasks" class="form-label  fw-bold">Subtasks</label>
+        <div formArrayName="subtasks">
+          <div *ngFor="let subtaskControl of subtaskControls.controls; let i = index" class="mb-3">
+            <div [formGroupName]="i">
+              <div class="row">
+                <div class="col-6">
+                  <input type="text" class="form-control mb-2" formControlName="title" placeholder="Title" required>
+                  <div *ngIf="isSubtaskFieldInvalid(i, 'title')" class="text-danger">
+                    Subtask title is required.
+                  </div>
+                </div>
+                <div class="col-4">
+                  <select class="form-select" formControlName="status" required>
+                    <option value="">Select status</option>
+                    <option value="Pending">Pending</option>
+                    <option value="In Progress">In Progress</option>
+                    <option value="Completed">Completed</option>
+                  </select>
+                  <div *ngIf="isSubtaskFieldInvalid(i, 'status')" class="text-danger">
+                    Subtask status is required.
+                  </div>
+                </div>
+                <div class="col-2">
+                  <button type="button" class="btn btn-danger" (click)="removeSubtask(i)">
+                    <app-trash-icon></app-trash-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="btn btn-sm btn-info" (click)="addSubtask()">Add Subtask</button>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br> <button type="submit" class="btn btn-dark">Create Task</button>
+  </form>
+</div>

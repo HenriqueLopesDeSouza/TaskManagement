@@ -1,0 +1,40 @@
+<div id="app">
+  <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <a href="#" class="navbar-brand">Task Management</a>
+    <ul class="navbar-nav mr-auto" routerLinkActive="active">
+      <li class="nav-item">
+        <a href="/home" class="nav-link" routerLink="home">Home </a>
+      </li>
+      @if (isLoggedIn) {
+        <li class="nav-item">
+          <a href="/tasks-view" class="nav-link" routerLink="tasks-view">TASKS</a>
+        </li>
+      }
+    </ul>
+
+    @if (!isLoggedIn) {
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="/register" class="nav-link" routerLink="register">Sign Up</a>
+        </li>
+        <li class="nav-item">
+          <a href="/login" class="nav-link" routerLink="login">Login</a>
+        </li>
+      </ul>
+    } @else {
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="/profile" class="nav-link" routerLink="profile">{{ email }}</a>
+        </li>
+        <li class="nav-item">
+          <a href class="nav-link" (click)="logout()">LogOut</a>
+        </li>
+      </ul>
+    }
+  </nav>
+
+  <div class="container">
+    <!-- <app-login (loginSuccess)="onLoginSuccess()"></app-login> -->
+    <router-outlet></router-outlet>
+  </div>
+</div>

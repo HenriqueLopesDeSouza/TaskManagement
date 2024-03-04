@@ -1,0 +1,101 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <br>
+            <h1 class="text-default text-center"><b>My Tasks</b></h1>
+            <hr>
+            <div class="row">
+                <div class="col-10">
+                    <div *ngIf="!tasks.length">
+                        <h3 class="text-center">No tasks added yet!</h3>
+                    </div>
+                    <h5 *ngIf="tasks.length" class="text-success">
+                        <b>Summary:</b> You have a total of <b>{{tasks.length}}</b> Tasks. You have
+                        <b>{{getPriorityTasksCount('High')}}</b>
+                        High priority tasks, <b>{{getPriorityTasksCount('Medium')}}</b> Medium priority tasks, and
+                        <b>{{getPriorityTasksCount('Low')}}</b> Low priority tasks.
+                    </h5>
+                </div>
+                <div class="col-2">
+                    <a href="" [routerLink]="['/tasks-create']" routerLinkActive="router-link-active"
+                        class="btn btn-dark pull-right">Create Task</a>
+                    <br>
+                </div>
+            </div>
+            <hr>
+            
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <accordion *ngFor="let task of tasks">
+                <accordion-group>
+                    <button class="btn btn-block justify-content-between d-flex w-100 shadow-none" accordion-heading
+                        type="button">
+                        <span [class]="getDueDateStatus(task.dueDate).cssClass"> 
+                            <strong>{{ getDueDateStatus(task.dueDate).status }}</strong></span>
+                        <div class="pull-left float-left text-dark text-title-heading">{{ task.title }}</div>
+                        
+                        <button class="float-right pull-right" [ngClass]="getStatusTextColor(task.status)">
+                            {{ task.status }}
+                        </button>
+                    </button>
+                    <p class="mb-1"><strong>Description:</strong> {{ task.description }}</p>
+                    <br>
+                    <div class="row">
+                        <div class="col-3">
+                            <p class="mb-1"><strong>Due Date:</strong> {{ getDateFormated(task.dueDate)  }}</p>                  
+                            <p class="mb-1"><strong>Due Date Status: </strong> <span [class]="getDueDateStatus(task.dueDate).cssClass"> 
+                                <strong>{{ getDueDateStatus(task.dueDate).status }}</strong></span></p>                
+                        </div>
+                        <div class="col-3">
+                            <p class="mb-1"><strong>Priority:</strong> {{ task.priority }}</p>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+                    <br>
+                    <div *ngIf="!task.subtasks.length">
+                        <h5>No subtasks for this task.</h5>
+                    </div>
+                    <div *ngIf="task.subtasks.length > 0">
+                        <strong>Subtasks:</strong>
+                        <div class="row" *ngFor="let subtask of task.subtasks">
+                            <div class="col-7">
+                                <input type="text" class="form-control mb-2" [value]="subtask.title" readonly required>
+                            </div>
+                            <div class="col-3">
+                                <select [(ngModel)]="subtask.status" class="form-control">
+                                    <option value="Pending">Pending</option>
+                                    <option value="In Progress">In Progress</option>
+                                    <option value="Completed">Completed</option>
+                                </select>
+                            </div>
+                            <div class="col-2">
+                                <button type="button" class="btn btn-success"
+                                    (click)="updateSubtaskStatus(subtask, task.taskId)">
+                                    Update Status
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="pull-right ">
+                        <button class="btn btn-dark" (click)="goToUpdateTask(task.taskId)" title="Edit Task">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-pencil" viewBox="0 0 16 16">
+                                <path
+                                    d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z" />
+                            </svg>
+                        </button>
+                        &nbsp;
+                        <button type="button" class="btn btn-danger" title="Delete Task" (click)="deleteTask(task.taskId)">
+                            <app-trash-icon></app-trash-icon>
+                        </button>
+                    </div>
+                </accordion-group>
+                <br>
+            </accordion>
+        </div>
+    </div>
+</div>

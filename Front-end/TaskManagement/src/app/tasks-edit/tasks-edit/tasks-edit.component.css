@@ -1,0 +1,7 @@
+.toast-error {
+    background-color: red; /* Cor de fundo vermelha para indicar erro */
+    color: white; /* Texto em branco para contrastar com o fundo vermelho */
+    font-size: 16px; /* Tamanho da fonte */
+    /* Outras propriedades de estilo conforme necessário */
+  }
+  
